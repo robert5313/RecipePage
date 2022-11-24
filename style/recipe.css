@@ -1,0 +1,84 @@
+/*Added the silver image as background image*/
+*{
+    
+    font-family: e Georgia, Garamond;
+    font-size:11px;
+}
+body{
+    background-image: url('/images/silverware.jpg');
+    align-items: center;
+}
+.banner{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100hv;
+    background-color: #F0F0F0;
+    background-size: cover;
+    background-position: center;
+    text-decoration-color: #A4A400;
+    
+    
+}
+.logo{
+    background-color: #F0F0F0;
+    color: #A4A400;
+    font-size: 22pt;
+    letter-spacing: 0.25em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-emphasis-style: bold;
+    font-family: Lucida Sans Unicode, Helvetica, Arial;
+    position: relative;
+    display: block;
+    margin: 0 20px;
+}
+.pieImage{
+    position: relative;
+}
+.heading{
+    background-color: #F0F0F0;
+    color:  #A4A400;
+    font-size: 18pt;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: Lucida Sans Unicode, Helvetica, Arial;
+}
+.ins{
+    text-transform: uppercase;
+}
+.tbspn{
+    text-decoration: underline;
+}
+.tsp{
+    text-decoration: underline;
+}
+.links{
+    color: #A4A400;
+    text-decoration-line: underline;
+}
+.list{
+    list-style-image:url('/images/pie_bullet.png');
+}
+.copyr{
+    width: fit-content;
+}
+#htmlws3{
+    background-image: url('/images/w3c-html.png');
+    padding: 15px 43px;
+    border: none;
+}
+#cssws3{
+    background-image: url("/images/w3c-css.png");
+    padding: 15px 43px;
+    border: none;
+}
+#cr{
+    text-align: right;
+    text-decoration: none;
+    display:block;
+    font-family:monospace;
+}
